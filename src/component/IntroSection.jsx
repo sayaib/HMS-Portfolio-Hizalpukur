@@ -13,10 +13,10 @@ const IntroSection = () => {
         <div className="mb-3">
           <img className="logo_img" src={logo} alt="" srcset="" />
         </div>
-        <div className="mt-3">
+        <div>
           <Container fluid>
-            <Row>
-              <Col lg={6} className="mt-5">
+            <Row className="mt-5">
+              <Col lg={6} sm={6} className="mt-5">
                 <h1 className="intro_lg_coat">
                   Find great <span style={{ color: " #0D8346" }}>Doctors</span>{" "}
                   who can take your
@@ -29,7 +29,7 @@ const IntroSection = () => {
                   health.
                 </p>
               </Col>
-              <Col lg={6}>
+              <Col lg={6} sm={6}>
                 <img className="group_img" src={Group_one} alt="" srcset="" />
               </Col>
             </Row>
